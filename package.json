@@ -1,0 +1,23 @@
+{
+  "name": "npm-publish-bin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node ./scripts/package.js",
+    "prepare": "node ./scripts/package.js"
+  },
+  "bin": {
+    "npm-publish-bin": "./bin/npm-publish-bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beven91/npm-publish-bin.git"
+  },
+  "author": "Beven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beven91/npm-publish-bin/issues"
+  },
+  "homepage": "https://github.com/Beven91/npm-publish-bin#readme"
+}
